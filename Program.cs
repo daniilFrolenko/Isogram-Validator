@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using IsogramValidation;
+
+Console.WriteLine(IsogramValidator.CheckIsIsogram("АбвгДе"));
+Console.WriteLine(IsogramValidator.CheckIsIsogram("ава"));
+Console.WriteLine(IsogramValidator.CheckIsIsogram("ignoreE"));
